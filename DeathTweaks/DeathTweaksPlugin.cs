@@ -62,7 +62,7 @@ namespace DeathTweaks
                 ref var globalKeys = ref ZoneSystem.instance.m_globalKeysEnums;
                 __state = globalKeys.Contains(GlobalKeys.DeathKeepEquip);
 
-                ZoneSystem.instance.m_globalKeysEnums.Add(GlobalKeys.DeathKeepEquip);
+                globalKeys.Add(GlobalKeys.DeathKeepEquip);
             }
 
             private static void Postfix(bool __state)
