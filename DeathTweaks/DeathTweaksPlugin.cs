@@ -14,8 +14,6 @@ namespace DeathTweaks
         public const string GUID = $"{Author}.{Name}";
         public const string Version = "1.0.0";
 
-        public static DeathTweaksPlugin Instance { get; private set; }
-
         private static ConfigEntry<bool> saveEquippedItemsAfterDeath;
         private static ConfigEntry<bool> saveSkillsAfterDeath;
 
