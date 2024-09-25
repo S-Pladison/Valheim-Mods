@@ -1,5 +1,5 @@
 # Valheim Mods
-A repository with my (or someone else's, but edited) mods for the computer game Valheim.
+My mods (or edited versions of someone else's) for the computer game Valheim.
 
 ## Mod List
 [**Death Tweaks**](https://github.com/S-Pladison/Valheim-Mods/tree/main/DeathTweaks)
